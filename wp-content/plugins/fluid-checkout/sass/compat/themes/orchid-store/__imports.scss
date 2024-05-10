@@ -1,0 +1,19 @@
+// ------------------------------------
+// DEFINE LOCAL VARIABLES
+// ------------------------------------
+$_body-page-selector:                  '.woocommerce-checkout' !default;
+$_body-theme-selector:                 '.theme-orchid-store' !default;
+
+
+
+
+
+// ------------------------------------
+// IMPORT STYLES
+// ------------------------------------
+@import
+	"checkout-steps",
+	"checkout-payment-methods",
+	"checkout-additional-notes",
+	"woocommerce-form-fields",
+	"woocommerce-form-fields-select2";

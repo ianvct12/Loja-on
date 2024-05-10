@@ -1,0 +1,93 @@
+// ------------------------------------
+// CHECKOUT SHIPPING STEP
+// ------------------------------------
+body.has-highlighted-shipping-section div.woocommerce form .fc-step__substep[data-substep-id="shipping_address"] {
+	background-color: $lighter-grey;
+
+	// Make fields background white
+	textarea,
+	select,
+	input[type="email"],
+	input[type="number"],
+	input[type="date"],
+	input[type="search"],
+	input[type="text"],
+	input[type="tel"],
+	input[type="url"],
+	input[type="password"],
+	.select2-selection,
+	.select2-selection .select2-selection__rendered,
+	.ts-control {
+		background-color: $white !important; // Needed to override theme styles
+		color: inherit !important; // Needed to override theme styles
+	}
+}
+
+body.has-highlighted-shipping-section div.woocommerce form .fc-step__substep .fc-highlighted-field-wrapper--shipping {
+	background-color: $lighter-grey;
+
+	// Padding
+	padding: $checkout-substep-padding;
+	@media (#{$bp-larger-than-tablet}) { padding: $checkout-substep-padding--large-screen; }
+
+	// Margin
+	margin: $checkout-substep-margin-expand;
+	margin-top: 0;
+	margin-bottom: #{ - $global-spacing-small };
+
+	@media (#{$bp-larger-than-tablet}) {
+		margin: $checkout-substep-margin-expand--large-screen;
+		margin-top: 0;
+		margin-bottom: #{ - $global-spacing-small };
+	}
+}
+
+
+
+.woocommerce-checkout .fc-wrapper .woocommerce-shipping-fields div.shipping_address {
+	display: block !important; // Needed to override other plugin/theme styles
+}
+
+
+
+.woocommerce-checkout .fc-wrapper .woocommerce-shipping-fields,
+.woocommerce-checkout .fc-wrapper .woocommerce-shipping-fields .woocommerce-shipping-fields__field-wrapper {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+
+div.woocommerce form .woocommerce-shipping-only-fields__field-wrapper {
+	margin-top: $global-spacing-small;
+}
+div.woocommerce form .woocommerce-shipping-only-fields__field-wrapper:before,
+div.woocommerce form .woocommerce-shipping-only-fields__field-wrapper:after {
+	@include clearfix();
+}
+
+
+
+.woocommerce-checkout .fc-wrapper .woocommerce-shipping-fields .woocommerce-shipping-fields__field-wrapper:not( :last-child ),
+.woocommerce-checkout .fc-wrapper .woocommerce-shipping-fields .shipping_address:not( :last-child ) {
+	padding-bottom: $global-spacing-small;
+}
+
+.woocommerce-checkout .fc-wrapper .woocommerce-shipping-fields:after,
+.woocommerce-checkout .fc-wrapper .woocommerce-shipping-fields .woocommerce-shipping-fields__field-wrapper:after,
+.woocommerce-checkout .fc-wrapper .woocommerce-shipping-fields .shipping_address:after {
+	@include clearfix();
+}
+
+
+
+
+
+// ------------------------------------
+// BILLING ONLY FIELDS FORCE SINGLE ADDRESS
+// ------------------------------------
+
+body.woocommerce-checkout.has-billing-address-position--force_single_address div.woocommerce .fc-wrapper .woocommerce-shipping-fields .woocommerce-billing-only-fields__field-wrapper {
+	margin-top: 0;
+}

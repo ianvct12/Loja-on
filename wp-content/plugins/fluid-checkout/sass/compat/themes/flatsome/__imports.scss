@@ -1,0 +1,19 @@
+// ------------------------------------
+// DEFINE LOCAL VARIABLES
+// ------------------------------------
+$_body-page-selector:                  '.woocommerce-checkout' !default;
+$_body-theme-selector:                 '.theme-flatsome' !default;
+
+
+
+
+
+// ------------------------------------
+// IMPORT STYLES
+// ------------------------------------
+@import
+	"checkout-content-area",
+	"checkout-header",
+	"woocommerce-form-fields",
+	"woocommerce-form-fields-select2",
+	"order-summary";

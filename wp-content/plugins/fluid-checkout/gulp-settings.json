@@ -1,0 +1,62 @@
+{
+	"defaultAction": "watch",
+
+	"watch": [
+		[ "./sass/**/*.scss", [ "build-css" ] ],
+		[ "./js-src/**/*.js", [ "build-js" ] ],
+		[ "./blocks/**/*.*", [ "npm-run-build" ] ]
+	],
+
+	"browserSyncWatch": [
+		"./css/**/*.min.css",
+		"./js/**/*.min.js",
+		"./**/*.php"
+	],
+
+	"changelogFile": "./readme.txt",
+
+	"sassSources": {
+		"main": [
+			"./sass/*.scss"
+		],
+
+		"themeCompat": [
+			"./sass/compat/themes/*.scss"
+		],
+		
+		"pluginCompat": [
+			"./sass/compat/plugins/*.scss"
+		]
+	},
+
+	"jsSources": {
+		"libraries": [
+			"./node_modules/animate-helper/dist/animate-helper.js",
+			"./node_modules/collapsible-block/dist/collapsible-block.js",
+			"./node_modules/flyout-block/dist/flyout-block.js",
+			"./node_modules/mailcheck/src/mailcheck.js",
+			"./node_modules/sticky-states/dist/sticky-states.js",
+			"./node_modules/wicg-inert/dist/inert.js"
+		],
+
+		"polyfills": [
+			"./node_modules/require-polyfills/dist/polyfill-*.js"
+		],
+
+		"standalone": [
+			"./js-src/*.js"
+		],
+
+		"admin": [
+			"./js-src/admin/*.js"
+		],
+
+		"themeCompat": [
+			"./js-src/compat/themes/**/*.js"
+		],
+
+		"pluginCompat": [
+			"./js-src/compat/plugins/**/*.js"
+		]
+	}
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Anéis &#8211; Comércio Online</title>
+	<atom:link href="https://https://ianvct12.github.io/ecommerce/categoria-produto/aneis/feed/" rel="self" type="application/rss+xml" />
+	<link>https://https://ianvct12.github.io/ecommerce</link>
+	<description>Jóias em ouro e prata</description>
+	<lastBuildDate>Wed, 08 May 2024 17:11:48 +0000</lastBuildDate>
+	<language>pt-BR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
+
+<image>
+	<url>https://https://ianvct12.github.io/ecommerce/wp-content/uploads/2024/05/cropped-FIVE-ICON-32x32.png</url>
+	<title>Anéis &#8211; Comércio Online</title>
+	<link>https://https://ianvct12.github.io/ecommerce</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+        <wp_options>
+            <wp_option>
+                <name>
+                    shopengine_activated_templates                </name>
+                <val>
+                    a:4:{s:6:&quot;single&quot;;a:1:{s:4:&quot;lang&quot;;a:1:{s:2:&quot;en&quot;;a:1:{i:1;a:3:{s:11:&quot;template_id&quot;;i:287;s:6:&quot;status&quot;;b:1;s:11:&quot;category_id&quot;;i:0;}}}}s:4:&quot;shop&quot;;a:1:{s:4:&quot;lang&quot;;a:1:{s:2:&quot;en&quot;;a:1:{i:0;a:3:{s:11:&quot;template_id&quot;;i:301;s:6:&quot;status&quot;;b:1;s:11:&quot;category_id&quot;;i:0;}}}}s:7:&quot;archive&quot;;a:1:{s:4:&quot;lang&quot;;a:1:{s:2:&quot;en&quot;;a:1:{i:0;a:3:{s:11:&quot;template_id&quot;;i:312;s:6:&quot;status&quot;;b:1;s:11:&quot;category_id&quot;;i:0;}}}}s:4:&quot;cart&quot;;a:1:{s:4:&quot;lang&quot;;a:1:{s:2:&quot;en&quot;;a:1:{i:0;a:3:{s:11:&quot;template_id&quot;;i:326;s:6:&quot;status&quot;;b:1;s:11:&quot;category_id&quot;;i:0;}}}}}                </val>
+            </wp_option>
+        </wp_options>
+        	<item>
+		<title>2 peças de anel Dourado ou Prata</title>
+		<link>https://https://ianvct12.github.io/ecommerce/produto/2-pecas-de-anel-dourado-ou-prato/</link>
+					<comments>https://https://ianvct12.github.io/ecommerce/produto/2-pecas-de-anel-dourado-ou-prato/#respond</comments>
+		
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Thu, 11 Apr 2024 20:23:31 +0000</pubDate>
+				<guid isPermaLink="false">https://https://ianvct12.github.io/ecommerce/?post_type=product#038;p=40</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>https://https://ianvct12.github.io/ecommerce/produto/2-pecas-de-anel-dourado-ou-prato/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

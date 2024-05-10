@@ -1,0 +1,23 @@
+// ------------------------------------
+// DEFINE LOCAL VARIABLES
+// ------------------------------------
+$_body-page-selector:                  '.woocommerce-checkout' !default;
+$_body-theme-selector:                 '.theme-iona' !default;
+
+
+
+
+
+// ------------------------------------
+// IMPORT STYLES
+// ------------------------------------
+@import
+	"checkout-content-area",
+	"checkout-columns",
+	"checkout-progress-bar",
+	"checkout-coupon-code",
+	"checkout-place-order",
+	"order-summary",
+	"tom-select-control",
+	"woocommerce-form-fields",
+	"woocommerce-form-fields-select2";

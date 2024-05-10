@@ -1,0 +1,539 @@
+# Translation of Plugins - Asaas Gateway for WooCommerce - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Asaas Gateway for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-01-07 12:43:47+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-beta.2\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Asaas Gateway for WooCommerce - Stable (latest release)\n"
+
+#: templates/order/pix-thankyou.php:47
+msgid "Click here to copy the Pix code"
+msgstr "Clique aqui para copiar o código Pix"
+
+#: templates/order/pix-thankyou.php:46
+msgid "Code copied to clipboard"
+msgstr "Código copiado para a área de transferência"
+
+#: templates/order/pix-thankyou.php:21
+msgid "Pay with Pix."
+msgstr "Pague com Pix."
+
+#. translators: %s: Asaas website URL
+#: includes/gateway/class-pix.php:31
+msgid "Use <a href=\"%s\">Asaas</a> to allow your customer buy your products by Pix."
+msgstr "Use <a href=\"%s\">Asaas</a> para permitir que seus clientes comprem seus produtos via Pix."
+
+#: includes/gateway/class-pix.php:29
+msgid "Asaas Pix"
+msgstr "Asaas Pix"
+
+#: includes/admin/settings/class-pix.php:108
+#: includes/billing-type/class-pix.php:42
+msgid "Pix"
+msgstr "Pix"
+
+#: includes/admin/settings/class-pix.php:55
+msgid "Copy and paste"
+msgstr "Copia e cola"
+
+#: includes/admin/settings/class-pix.php:32
+msgid "Pay your purchase with Pix."
+msgstr "Pague sua compra com Pix."
+
+#: includes/admin/settings/class-pix.php:57
+msgid "Enable copy and paste"
+msgstr "Ativar copia e cola"
+
+#: includes/webhook/class-webhook.php:330
+msgid "Payment overdue."
+msgstr "Pagamento atrasado."
+
+#: includes/webhook/class-webhook.php:310
+msgid "Payment deleted."
+msgstr "Pagamento excluído."
+
+#: includes/webhook/class-webhook.php:276
+msgid "Payment created."
+msgstr "Pagamento criado."
+
+#: includes/webhook/class-webhook.php:166
+msgid "This order was already paid."
+msgstr "Este pedido já foi pago."
+
+#: includes/webhook/class-webhook.php:152
+msgid "Payment confirmed."
+msgstr "Pagamento confirmado."
+
+#: includes/webhook/class-webhook.php:342
+msgid "Fine tax"
+msgstr "Multa"
+
+#: includes/admin/views/installments-interest-list.php:24
+#: includes/installments/admin/settings/class-installments-fields.php:98
+#: includes/webhook/class-webhook.php:350
+msgid "Interest"
+msgstr "Juro"
+
+#: includes/gateway/class-ticket.php:380
+msgid "Ignore remove tickets by empty setting."
+msgstr "Ignorar a remoção de boletos pela configuração vazia."
+
+#: includes/billing-type/class-credit-card.php:84
+msgid "Hipercard"
+msgstr "Hipercard"
+
+#. translators: %s: event name
+#: includes/webhook/class-endpoint.php:253
+msgid "Event %s wasn't registered."
+msgstr "O evento %s não foi registrado."
+
+#. translators: %1$s: count installments %2$s: total installments
+#: templates/order/ticket-thankyou.php:32
+msgid "Installment %1$s of %2$s."
+msgstr "Parcela %1$s de %2$s."
+
+#: includes/gateway/class-ticket.php:389
+msgid "No expired ticket to remove."
+msgstr "Nenhum boleto vencido para remover."
+
+#: templates/order/ticket-thankyou.php:20
+msgid "Your tickets are ready."
+msgstr "Seus boletos estão prontos."
+
+#: includes/admin/settings/class-ticket.php:39
+msgid "Number of days that the ticket will be kept at Asaas after its expiration. At the end of this period, the ticket will be removed. It will keep if blank."
+msgstr "Número de dias que o boleto será mantido pelo Asaas após seu vencimento. Ao final desse período, o boleto será removido. Deixar em branco para não removê-lo."
+
+#: includes/admin/settings/class-ticket.php:37
+msgid "Validity Period"
+msgstr "Período de validade"
+
+#. translators: %s: Extra Checkout fields for Brazil settings URL
+#: includes/class-wc-asaas.php:332
+msgid "<a href=\"%s\">Click here</a> to change checkout fields."
+msgstr "<a href=\"%s\">Clique aqui</a> para alterar os campos de checkout."
+
+#: includes/class-wc-asaas.php:326
+msgid "Asaas needs the CPF or CNPJ at checkout for the integration works."
+msgstr "O Asaas precisa do CPF ou CNPJ no checkout para o funcionamento da integração."
+
+#. translators: %s: billing type name
+#: includes/class-wc-asaas.php:264 includes/webhook/class-endpoint.php:269
+msgid "Billing type %s wasn't registered."
+msgstr "Tipo de faturamento %s não foi registrado."
+
+#: includes/admin/settings/class-settings.php:394
+msgid "Status &gt; Logs"
+msgstr "Status &gt; Logs"
+
+#. translators: %s: log page link
+#: includes/admin/settings/class-settings.php:243
+msgid "Log Asaas API and webhook communication, inside %s."
+msgstr "Log Asaas API e comunicação de webhook, dentro de %s."
+
+#. translators: %s: event name
+#: includes/webhook/class-webhook.php:143
+msgid "Untreated event: %s"
+msgstr "Evento não tratado: %s"
+
+#. Author of the plugin
+msgid "Asaas"
+msgstr "Asaas"
+
+#: includes/admin/settings/class-credit-card.php:23
+msgid "Pay your purchase with credit card."
+msgstr "Page sua compra com cartão de crédito."
+
+#: includes/admin/settings/class-credit-card.php:31
+msgid "Order minimum total"
+msgstr "Total mínimo do pedido"
+
+#: includes/admin/settings/class-credit-card.php:33
+msgid "The order minimum total to allow use this payment method. Use <code>0</code> to disable this option."
+msgstr "O total mínimo do pedido para permitir o uso deste método de pagamento. Use <code>0</code> para desabilitar esta opção."
+
+#: includes/admin/views/installments-interest-list.php:23
+#: includes/installments/admin/settings/class-installments-fields.php:89
+#: includes/installments/checkout/class-installments-checkout.php:46
+msgid "Installments"
+msgstr "Parcelas"
+
+#. translators: %d: maximum installments allowed
+#: includes/installments/admin/settings/class-installments-fields.php:75
+msgid "Define the installment limit allowed. The max value is <code>%d</code>. Use <code>0</code> to disable this option."
+msgstr "Define o limite de parcelas permitido. O valor máximo é <code>%d</code>. Use <code>0</code> para desabilitar esta opção."
+
+#: includes/admin/settings/class-credit-card.php:39
+msgid "One-Click Buy"
+msgstr "Compra com um clique"
+
+#: includes/admin/settings/class-credit-card.php:41
+msgid "Enable one-click buy"
+msgstr "Habilitar compra com um clique"
+
+#: includes/admin/settings/class-credit-card.php:42
+msgid "To enable one-click buy please contact your Asaas manager."
+msgstr "Para habilitar a compra com um clique entre em contato com seu gerente Asaas."
+
+#: includes/admin/settings/class-credit-card.php:62
+#: includes/billing-type/class-credit-card.php:42
+msgid "Credit Card"
+msgstr "Cartão de Crédito"
+
+#: includes/admin/settings/class-settings.php:107
+msgid "Gateway"
+msgstr "Meio de Pagamento"
+
+#: includes/admin/settings/class-settings.php:111
+msgid "API"
+msgstr "API"
+
+#: includes/admin/settings/class-settings.php:115
+msgid "Webhook"
+msgstr "Webhook"
+
+#: includes/admin/settings/class-settings.php:117
+msgid "Configure the webhook to receive Asaas notifications and update orders automatically."
+msgstr "Configure o webhook para receber as notificações do Asaas e atualizar os pedidos automaticamente."
+
+#: includes/admin/settings/class-settings.php:121
+msgid "Enable the webhook"
+msgstr "Habilitar o webhook"
+
+#: includes/admin/settings/class-settings.php:124
+msgid "Select <em>v3</em> on <em>Versão da API</em>"
+msgstr "Selecione <em>v3</em> em <em>Versão da API</em>"
+
+#. translators: %s: Webhook token suggestion
+#: includes/admin/settings/class-settings.php:126
+msgid "Define an access access token (e.g., <code>%s</code>) and fill the same value in this form <em>Access Token</em> input"
+msgstr "Defina um token de acesso (ex, <code>%s</code>) e preencha o mesmo valor do campo <em>Token de Acesso</em> neste formulário"
+
+#: includes/admin/settings/class-settings.php:127
+msgid "To process the webhook queue que field <em>Status fila de sincronização</em> must be <em>Ativa</em>"
+msgstr "Para processar a fila do webhook, o campo <em>Status fila de sincronização</em> deve estar <em>Ativa</em>"
+
+#: includes/admin/settings/class-settings.php:136
+msgid "Advanced Options"
+msgstr "Opções avançadas"
+
+#: includes/admin/settings/class-settings.php:154
+msgid "Enable/Disable"
+msgstr "Habilitar/Desabilitar"
+
+#. translators: %s: billing type name
+#: includes/admin/settings/class-settings.php:157
+msgid "Enable Asaas %s"
+msgstr "Habilitar Asaas %s"
+
+#: includes/admin/settings/class-settings.php:163
+msgid "Title"
+msgstr "Título"
+
+#: includes/admin/settings/class-settings.php:165
+msgid "This controls the title which the user sees during checkout."
+msgstr "Isso controla o título que o usuário vê durante a finalização da compra."
+
+#: includes/admin/settings/class-settings.php:173
+msgid "Description"
+msgstr "Descrição"
+
+#: includes/admin/settings/class-settings.php:175
+msgid "This controls the description which the user sees during checkout."
+msgstr "Controla a descrição que o usuário vê durante a finalização da compra."
+
+#: includes/admin/settings/class-settings.php:176
+msgid "Pay your order using Asaas."
+msgstr "Pague seu pedido usando Asaas."
+
+#: includes/admin/settings/class-settings.php:207
+msgid "API Key"
+msgstr "Chave da API"
+
+#: includes/admin/settings/class-settings.php:217
+msgid "Notification between Asaas and customer"
+msgstr "Notificações entre Asaas e o cliente"
+
+#: includes/admin/settings/class-settings.php:219
+msgid "Enable Notification"
+msgstr "Habilitar Notificações"
+
+#. translators: %s: Asaas integration settings panel URL
+#: includes/admin/settings/class-settings.php:221
+msgid "Allow Asaas to send email and SMS about the purchase and notify him periodically while the purchase is not paid."
+msgstr "Permite a Asaas enviar e-mail e SMS sobre a compra para seu cliente e notificação-lo periodicamente enquanto a compra não é paga."
+
+#: includes/admin/settings/class-settings.php:228
+msgid "Access Token"
+msgstr "Token de Acesso"
+
+#. translators: %s: Asaas integration settings panel URL
+#: includes/admin/settings/class-settings.php:231
+msgid "The token filled in the Asaas webhook settings."
+msgstr "O token preenchido nas configurações de webhook do Asaas."
+
+#: includes/admin/settings/class-settings.php:238
+msgid "Debug log"
+msgstr "Log de depuração"
+
+#: includes/admin/settings/class-settings.php:240
+msgid "Enable logging"
+msgstr "Habilitar log"
+
+#. translators: %d: minimum installments value
+#: includes/installments/admin/settings/class-installments-fields.php:108
+msgid "The minimum value for each installment. The minimum value accepted by Asaas is <code>%s</code>."
+msgstr "O valor mínimo de cada parcela. O valor mínimo aceito pelo Asaas é <code>%s</code>."
+
+#. translators: %s: Asaas integration settings panel URL
+#: includes/admin/settings/class-settings.php:120
+msgid "<a href=\"%s\">Click here</a> and go to section <em>Webhook</em> in the section <em>Integração</em> tab"
+msgstr "<a href=\"%s\">Clique aqui</a> e vá para a seção <em>Webhook</em> na aba <em>Integração</em>"
+
+#. translators: %s: available meta keys
+#: includes/meta-data/class-customer.php:97
+msgid "Invalid customer meta key. The available keys are: %s"
+msgstr "Chave de metadado de cliente inválida. As chaves disponíveis são: %s"
+
+#. Description of the plugin
+msgid "Take transparent credit card and bank ticket payment checkouts on your store using Asaas."
+msgstr "Ofereça pagamentos com cartão de crédito e boleto bancário de forma transparente na sua loja utilizando Asaas."
+
+#. translators: %s: field name
+#: includes/helper/class-validation-helper.php:73
+msgid "%s is a required field."
+msgstr "%s é um campo obrigatório."
+
+#: includes/webhook/class-endpoint.php:178
+msgid "Webhook has been processed with success"
+msgstr "Webhook processado com sucesso"
+
+#: templates/order/credit-card-thankyou.php:15
+#: templates/order/pix-thankyou.php:16 templates/order/ticket-thankyou.php:14
+msgid "Payment details"
+msgstr "Detalhes do pagamento"
+
+#. translators: %s: the order status
+#: templates/order/credit-card-thankyou.php:22
+msgid "Status: <strong>%s</strong>"
+msgstr "Estado do pedido: <strong>%s</strong>"
+
+#: templates/order/ticket-thankyou.php:46
+msgid "Your ticket is ready."
+msgstr "Seu boleto bancário está pronto."
+
+#: templates/order/ticket-thankyou.php:36
+#: templates/order/ticket-thankyou.php:49
+msgid "Access ticket"
+msgstr "Acessar boleto bancário"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.asaas.com"
+msgstr "https://www.asaas.com"
+
+#. translators: %s: Asaas integration settings panel URL
+#: includes/admin/settings/class-settings.php:210
+msgid "The API Key used to connect with Asaas. <a href=\"%s\">Click here</a> to get it."
+msgstr "A Chave de API usada para conectar com Asaas. <a href=\"%s\">Clique aqui</a> para obtê-la."
+
+#. translators: %s: Asaas website URL
+#: includes/gateway/class-credit-card.php:36
+msgid "Use <a href=\"%s\">Asaas</a> to allow your customer buy your products in installments using credit card."
+msgstr "Use <a href=\"%s\">Asaas</a> para permitir seus clientes comprar seus produtos em parcelas usando cartão de crédito."
+
+#: includes/checkout/form-field/class-card.php:75
+msgid "Name on card"
+msgstr "Nome no cartão"
+
+#: includes/checkout/form-field/class-card.php:84
+msgid "Card number"
+msgstr "Número do cartão"
+
+#: includes/checkout/form-field/class-card.php:93
+msgid "Expiration"
+msgstr "Expiração"
+
+#: includes/checkout/form-field/class-card.php:101
+msgid "Security code"
+msgstr "Código de Segurança"
+
+#: includes/checkout/form-field/class-label.php:58
+msgid "required"
+msgstr "obrigatório"
+
+#: includes/checkout/form-field/class-one-click-options.php:59
+msgid "New Credit Card"
+msgstr "Novo Cartão de Crédito"
+
+#: includes/gateway/class-credit-card.php:34
+msgid "Asaas Credit Card"
+msgstr "Asaas Cartão de Crédito"
+
+#: includes/gateway/class-credit-card.php:93
+msgid "Are you sure that this card exists?"
+msgstr "Você tem certeza que esse cartão existe?"
+
+#: includes/gateway/class-credit-card.php:315
+msgid "Select a credit card"
+msgstr "Selecione um cartão de crédito"
+
+#: includes/gateway/class-ticket.php:31
+msgid "Asaas Ticket"
+msgstr "Asaas Boleto Bancário"
+
+#: includes/billing-type/class-credit-card.php:69
+msgid "Diners"
+msgstr "Diners"
+
+#: includes/billing-type/class-credit-card.php:74
+msgid "Elo"
+msgstr "Elo"
+
+#: includes/billing-type/class-credit-card.php:79
+msgid "Discover"
+msgstr "Discover"
+
+#: includes/checkout/form-field/class-card-expiration.php:107
+msgid "Month"
+msgstr "Mês"
+
+#: includes/checkout/form-field/class-card-expiration.php:110
+msgid "MM"
+msgstr "MM"
+
+#: includes/checkout/form-field/class-card-expiration.php:128
+msgid "Year"
+msgstr "Ano"
+
+#: includes/checkout/form-field/class-card-security-code.php:74
+msgid "Invalid security code."
+msgstr "Código de segurança inválido."
+
+#: includes/admin/settings/class-settings.php:249
+msgid "This option is shared with another Asaas gateway."
+msgstr "Essa opção é compartilhada com outros métodos de pagamento do Asaas."
+
+#: includes/admin/settings/class-ticket.php:23
+msgid "Pay your purchase with ticket."
+msgstr "Pague sua compra com boleto bancário."
+
+#: includes/admin/settings/class-ticket.php:31
+msgid "Quantity days that the ticket is valid after the purchase."
+msgstr "Quantidade de dias que o boleto bancário é válido após a compra."
+
+#: includes/admin/settings/class-ticket.php:56
+#: includes/billing-type/class-ticket.php:42
+msgid "Ticket"
+msgstr "Boleto Bancário"
+
+#. translators: %s: The plugin name
+#: includes/admin/views/missing-dependency-plugin.php:26
+#: includes/admin/views/missing-subscription-dependency-plugin.php:36
+msgid "Install %s"
+msgstr "Instalar %s"
+
+#. translators: %s: The plugin name
+#: includes/admin/views/missing-dependency-plugin.php:42
+#: includes/admin/views/missing-subscription-dependency-plugin.php:52
+msgid "Activate %s"
+msgstr "Ativar %s"
+
+#. translators: 1: The plugin name, 2: The dependency plugin name
+#: includes/admin/views/missing-dependency-plugin.php:49
+msgid "<strong>%1$s</strong> depends on the %2$s plugin to work."
+msgstr "<strong>%1$s</strong> depende do plugin %2$s para funcionar."
+
+#: includes/billing-type/class-credit-card.php:54
+msgid "Visa"
+msgstr "Visa"
+
+#: includes/billing-type/class-credit-card.php:59
+msgid "Mastercard"
+msgstr "Mastercard"
+
+#: includes/billing-type/class-credit-card.php:64
+msgid "Amex"
+msgstr "Amex"
+
+#: includes/api/response/class-error-response.php:24
+msgid "An error processing your order. Contact us."
+msgstr "Ocorreu um erro ao processar seu pedido. Entre em contato conosco."
+
+#: includes/checkout/form-field/class-card-expiration.php:225
+msgid "<strong>Expiration</strong> must be a non-past date."
+msgstr "<strong>Expiração</strong> não pode ser uma data no passado."
+
+#: includes/checkout/form-field/class-card-expiration.php:42
+msgid "Expiration date"
+msgstr "Data de expiração"
+
+#: includes/installments/admin/settings/class-installments-fields.php:105
+msgid "Minimum installment value"
+msgstr "Valor mínimo das parcelas"
+
+#: includes/checkout/form-field/class-card-expiration.php:131
+msgid "YYYY"
+msgstr "AAAA"
+
+#: includes/admin/settings/class-ticket.php:29
+msgid "Validity Days"
+msgstr "Dias de Validade"
+
+#. translators: %s: the field label
+#: includes/checkout/form-field/class-card-expiration.php:159
+msgid "Expiration %s"
+msgstr "%s de expiração"
+
+#. translators: %s: field name
+#: includes/checkout/form-field/class-card-expiration.php:239
+msgid "%s must have two digits and be a valid month number."
+msgstr "%s deve ter dois dígitos e ser um número de mês válido."
+
+#: includes/helper/class-checkout-helper.php:45
+msgid "Refund requested"
+msgstr "Estorno solicitado"
+
+#: includes/helper/class-checkout-helper.php:41
+msgid "Received in cash"
+msgstr "Recebido em dinheiro"
+
+#: includes/helper/class-checkout-helper.php:37
+msgid "Refunded"
+msgstr "Estornado"
+
+#: includes/helper/class-checkout-helper.php:33
+msgid "Overdue"
+msgstr "Vencido"
+
+#: includes/helper/class-checkout-helper.php:29
+msgid "Confirmed"
+msgstr "Confirmado"
+
+#: includes/helper/class-checkout-helper.php:25
+msgid "Pending"
+msgstr "Pendente"
+
+#. translators: %s: Asaas website URL
+#: includes/gateway/class-ticket.php:33
+msgid "Use <a href=\"%s\">Asaas</a> to allow your customer buy your products by ticket."
+msgstr "Use <a href=\"%s\">Asaas</a> para permitir que seus clientes comprem seus produtos via boleto bancário."
+
+#. translators: %s: field name
+#: includes/checkout/form-field/class-card-expiration.php:253
+msgid "%s must at least 2 digits and be a non-past year."
+msgstr "%s deve ter pelo menos 2 dígitos e não pode ser um ano já passado."
+
+#. translators: %s: Webhook endpoint URL
+#: includes/admin/settings/class-settings.php:123
+msgid "Put <code>%s</code> in URL"
+msgstr "Coloque <code>%s</code> no URL"
+
+#. Plugin Name of the plugin
+msgid "Asaas Gateway for WooCommerce"
+msgstr "Meio de Pagamento Asaas para o WooCommerce"

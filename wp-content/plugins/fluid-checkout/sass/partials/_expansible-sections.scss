@@ -1,0 +1,65 @@
+// ------------------------------------
+// EXPANSIBLE SECTIONS
+// ------------------------------------
+
+div.woocommerce .fc-expansible-form-section {
+	background-color: transparent;
+	box-shadow: none;
+}
+
+
+
+div.woocommerce .fc-expansible-form-section .expansible-section__toggle-plus {
+	position: relative;
+	display: inline-block;
+	width: auto;
+	padding: 0;
+	padding-#{ $alignment-left }: #{ $checkout-expansible-section-icon-size + $checkout-expansible-section-icon-spacing-left + $checkout-expansible-section-icon-spacing-right };
+	cursor: pointer;
+	text-decoration: $checkout-expansible-section-text-decoration;
+	line-height: 1.2;
+	font-size: $font-size-small;
+	text-align: $alignment-left;
+
+	@media (#{$bp-larger-than_tablet}) {
+		font-size: $font-size-small--large-screen;
+	}
+
+	&:before {
+		@include icon( $checkout-expansible-section-icon );
+		@include icon-size( $checkout-expansible-section-icon-size );
+		
+		position: absolute;
+		top: 50%;
+		#{ $alignment-left }: $checkout-expansible-section-icon-spacing-left;
+		transform: translateY( -50% );
+	}
+
+	&:focus {
+		outline: $focus-outline-link !important; // Needed to override theme styles
+		outline-offset: $focus-outline-offset-link !important; // Needed to override theme styles
+	}
+}
+
+div.woocommerce .form-row:not( .fc-expansible-form-section ) + .fc-expansible-form-section.form-row.form-row-last .expansible-section__toggle-plus {
+	@media (#{$bp-larger-than_tablet}) {
+		// Not a perfect calculation, but close enough.
+		// The 1/3 of field height is to try to align the "Add <field>" link to the middle vertically,
+		// and the `$global-spacing-small` is to account for the field label height, which is not always the same.
+		margin-top: calc( $global-spacing-small + ( #{ $form-field-height } / 3 ) );
+	}
+}
+
+
+
+
+div.woocommerce .fc-expansible-form-section.form-row .form-row {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+div.woocommerce form .fc-expansible-form-section.form-row,
+div.woocommerce form .fc-expansible-form-section.form-row + .form-row {
+	clear: left;
+}

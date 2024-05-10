@@ -1,0 +1,11 @@
+// ------------------------------------
+// CHECKOUT CONTENT AREA
+// ------------------------------------
+
+body#{ $_body-theme-selector }#{ $_body-page-selector } .fc-content.container {
+	@media (#{$bp-smaller-than-tablet}) { 
+		width: 100% !important; // Needed to override styles added by the theme
+		max-width: 100% !important; // Needed to override styles added by the theme
+		padding: 0 $container-spacing-mobile $global-spacing-large !important; // Needed to override styles added by the theme
+	}
+}
